@@ -42,6 +42,18 @@ export class IconsPage {
         title: 'Status attribute',
       },
     },
+    {
+      ng: {
+        files: ['4.0.0/icons/badge/icons.ng.html', '4.0.0/icons/badge/icons.ng.ts'],
+        component: '4.0.0/icons/badge/icons.ng.ts',
+        title: 'Badge class',
+      },
+      core: {
+        files: ['4.0.0/icons/badge/icons.core.html', '4.0.0/icons/badge/icons.core.ts'],
+        component: '4.0.0/icons/badge/icons.core.ts',
+        title: 'Badge attribute',
+      },
+    },
   ];
 
   eslintSetup = `
