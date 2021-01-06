@@ -18,6 +18,30 @@ export class IconsPage {
         title: 'Core icon',
       },
     },
+    {
+      ng: {
+        files: ['4.0.0/icons/direction/icons.ng.html', '4.0.0/icons/direction/icons.ng.ts'],
+        component: '4.0.0/icons/direction/icons.ng.ts',
+        title: 'Dir attribute',
+      },
+      core: {
+        files: ['4.0.0/icons/direction/icons.core.html', '4.0.0/icons/direction/icons.core.ts'],
+        component: '4.0.0/icons/direction/icons.core.ts',
+        title: 'Direction attribute',
+      },
+    },
+    {
+      ng: {
+        files: ['4.0.0/icons/status/icons.ng.html', '4.0.0/icons/status/icons.ng.ts'],
+        component: '4.0.0/icons/status/icons.ng.ts',
+        title: 'Status class',
+      },
+      core: {
+        files: ['4.0.0/icons/status/icons.core.html', '4.0.0/icons/status/icons.core.ts'],
+        component: '4.0.0/icons/status/icons.core.ts',
+        title: 'Status attribute',
+      },
+    },
   ];
 
   eslintSetup = `
